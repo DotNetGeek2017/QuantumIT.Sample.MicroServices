@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D1F1EA0F-714B-44EB-A3C7-FECB4EE89B29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5166E326-9253-48FE-B4AC-46C310A21690}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB46794C-B9C0-4A13-AAB7-8774D01698EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantumIT.Sample.MicroServices", "src\QuantumIT.Sample.MicroServices\QuantumIT.Sample.MicroServices.csproj", "{889E45DA-3474-4A3D-890E-B028163EB217}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantumIT.Sample.Microservices.Tests", "src\QuantumIT.Sample.Microservices.Tests\QuantumIT.Sample.Microservices.Tests.csproj", "{04233248-AD9F-4CC2-A3B4-C6EA4BF9E235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumIT.Sample.Microservices.Services", "src\QuantumIT.Sample.Microservices.Services\QuantumIT.Sample.Microservices.Services.csproj", "{8F0D0A8B-F018-401D-A624-2BC7460C5809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumIT.Sample.Microservices.Interface", "src\QuantumIT.Sample.Microservices.Interface\QuantumIT.Sample.Microservices.Interface.csproj", "{CF96026F-2EB8-4A47-A167-22F028DFF9AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumIT.Sample.Microservices.DataTransferObjects", "src\QuantumIT.Sample.Microservices.DataTransferObjects\QuantumIT.Sample.Microservices.DataTransferObjects.csproj", "{5D2F4030-90CF-4A5B-B6E9-07A4BCE75793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumIT.Sample.Microservices.ORM", "src\QuantumIT.Sample.Microservices.ORM\QuantumIT.Sample.Microservices.ORM.csproj", "{DB361334-990F-4432-B34B-6D32E284383D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumIT.Sample.Microservices.DataAccess", "src\QuantumIT.Sample.Microservices.DataAccess\QuantumIT.Sample.Microservices.DataAccess.csproj", "{D00B44CE-5EBA-4B2A-8724-08693E6926AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{889E45DA-3474-4A3D-890E-B028163EB217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889E45DA-3474-4A3D-890E-B028163EB217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889E45DA-3474-4A3D-890E-B028163EB217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889E45DA-3474-4A3D-890E-B028163EB217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04233248-AD9F-4CC2-A3B4-C6EA4BF9E235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04233248-AD9F-4CC2-A3B4-C6EA4BF9E235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04233248-AD9F-4CC2-A3B4-C6EA4BF9E235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04233248-AD9F-4CC2-A3B4-C6EA4BF9E235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0D0A8B-F018-401D-A624-2BC7460C5809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0D0A8B-F018-401D-A624-2BC7460C5809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0D0A8B-F018-401D-A624-2BC7460C5809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0D0A8B-F018-401D-A624-2BC7460C5809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF96026F-2EB8-4A47-A167-22F028DFF9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF96026F-2EB8-4A47-A167-22F028DFF9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF96026F-2EB8-4A47-A167-22F028DFF9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF96026F-2EB8-4A47-A167-22F028DFF9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2F4030-90CF-4A5B-B6E9-07A4BCE75793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2F4030-90CF-4A5B-B6E9-07A4BCE75793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2F4030-90CF-4A5B-B6E9-07A4BCE75793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2F4030-90CF-4A5B-B6E9-07A4BCE75793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB361334-990F-4432-B34B-6D32E284383D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB361334-990F-4432-B34B-6D32E284383D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB361334-990F-4432-B34B-6D32E284383D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB361334-990F-4432-B34B-6D32E284383D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00B44CE-5EBA-4B2A-8724-08693E6926AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00B44CE-5EBA-4B2A-8724-08693E6926AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00B44CE-5EBA-4B2A-8724-08693E6926AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00B44CE-5EBA-4B2A-8724-08693E6926AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{889E45DA-3474-4A3D-890E-B028163EB217} = {D1F1EA0F-714B-44EB-A3C7-FECB4EE89B29}
+		{04233248-AD9F-4CC2-A3B4-C6EA4BF9E235} = {5166E326-9253-48FE-B4AC-46C310A21690}
+		{8F0D0A8B-F018-401D-A624-2BC7460C5809} = {D1F1EA0F-714B-44EB-A3C7-FECB4EE89B29}
+		{CF96026F-2EB8-4A47-A167-22F028DFF9AE} = {D1F1EA0F-714B-44EB-A3C7-FECB4EE89B29}
+		{5D2F4030-90CF-4A5B-B6E9-07A4BCE75793} = {D1F1EA0F-714B-44EB-A3C7-FECB4EE89B29}
+		{DB361334-990F-4432-B34B-6D32E284383D} = {D1F1EA0F-714B-44EB-A3C7-FECB4EE89B29}
+		{D00B44CE-5EBA-4B2A-8724-08693E6926AD} = {D1F1EA0F-714B-44EB-A3C7-FECB4EE89B29}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4C2FA2F-9063-47AD-B2BF-FCFCA60E8578}
+	EndGlobalSection
+EndGlobal

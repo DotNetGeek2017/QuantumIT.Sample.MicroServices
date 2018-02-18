@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuantumIT.Sample.Microservices.DataTransferObjects\QuantumIT.Sample.Microservices.DataTransferObjects.csproj" />
+    <ProjectReference Include="..\QuantumIT.Sample.Microservices.Interface\QuantumIT.Sample.Microservices.Interface.csproj" />
+    <ProjectReference Include="..\QuantumIT.Sample.Microservices.ORM\QuantumIT.Sample.Microservices.ORM.csproj" />
+  </ItemGroup>
+
+</Project>
