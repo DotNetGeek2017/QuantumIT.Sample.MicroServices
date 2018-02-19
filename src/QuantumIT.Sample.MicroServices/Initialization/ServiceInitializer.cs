@@ -11,6 +11,7 @@ using QuantumIT.Sample.Microservices.Interface.ORM;
 using QuantumIT.Sample.Microservices.Interface.Service;
 using QuantumIT.Sample.Microservices.ORM;
 using QuantumIT.Sample.Microservices.ORM.Model;
+using QuantumIT.Sample.Microservices.Services.Interface;
 using QuantumIT.Sample.Microservices.Services.Services;
 using QuantumIT.Sample.MicroServices.Middleware;
 
@@ -37,9 +38,13 @@ namespace QuantumIT.Sample.MicroServices.Initialization
 
             //Repository
             services.AddScoped<ICompanyRepository<Company>, CompanyRepository>();
+            services.AddScoped<IInterviewRepository<Interview>, InterviewRepository>();
+            services.AddScoped<IInterviewerRepository<Interviewer>, InterviewerRepository>();
 
             //Services
             services.AddScoped<ICompanyService, CompanyService>();
+            services.AddScoped<IInterviewService, InterviewService>();
+            services.AddScoped<IInterviewerService, InterviewerService>();
 
         }
     }
